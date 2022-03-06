@@ -4,14 +4,13 @@
     <string name="assignment_2">Assignment 2</string>
     <string name="load_image">Load Image</string>
     <string name="enter_image_url">Enter image url</string>
-    <string name="sample_image_url_1x1">https://picsum.photos/200/200</string>
-    <string name="sample_image_url_1x2">https://picsum.photos/200/400</string>
-    <string name="sample_image_url_1x3">https://picsum.photos/200/600</string>
-    <string name="sample_image_url_2x1">https://picsum.photos/400/200</string>
-    <string name="sample_image_url_2x3">https://picsum.photos/400/600</string>
-    <string name="sample_image_url_3x1">https://picsum.photos/600/200</string>
-    <string name="sample_image_url_3x2">https://picsum.photos/600/400</string>
+    <string name="sample_image_url_1">https://file-examples-com.github.io/uploads/2017/10/file_example_JPG_100kB.jpg</string>
+    <string name="sample_image_url_2">https://sample-videos.com/img/Sample-jpg-image-200kb.jpg</string>
+    <string name="sample_image_url_3">https://www.learningcontainer.com/wp-content/uploads/2020/09/Sample-Image-File-for-Testing.png</string>
+    <string name="sample_image_url_4">https://sample-videos.com/img/Sample-jpg-image-1mb.jpg</string>
     <string name="some_other_view">Some other view below image</string>
     <string name="sample_product_name">Product Name</string>
     <string name="sample_product_description">Product description</string>
+
+
 </resources>

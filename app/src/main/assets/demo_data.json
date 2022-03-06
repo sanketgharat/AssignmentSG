@@ -36,7 +36,7 @@
   {
     "id": 3,
     "type": "grid",
-    "columns": 2,
+    "columns": 3,
     "data": [
       {
         "product_id": 642,

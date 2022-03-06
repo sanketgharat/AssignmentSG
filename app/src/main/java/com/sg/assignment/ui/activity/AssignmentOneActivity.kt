@@ -31,8 +31,8 @@ class AssignmentOneActivity : AppCompatActivity() {
     }
 
     private fun loadUrl(){
-        //val url =  binding.etUrl.text.toString()
-        val url = "https://sample-videos.com/img/Sample-jpg-image-1mb.jpg"
+        val url =  binding.etUrl.text.toString()
+        //val url = "https://sample-videos.com/img/Sample-jpg-image-1mb.jpg"
         if(url.isBlank()){
             Toast.makeText(this, "please enter url", Toast.LENGTH_SHORT).show()
             return

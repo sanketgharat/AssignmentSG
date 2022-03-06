@@ -17,8 +17,6 @@ import com.sg.assignment.utils.GlideUtils
 import androidx.recyclerview.widget.DividerItemDecoration
 
 
-
-
 class MainDataListAdapter : RecyclerView.Adapter<MainDataListAdapter.MyViewHolder>() {
 
     companion object {
@@ -72,19 +70,32 @@ class MainDataListAdapter : RecyclerView.Adapter<MainDataListAdapter.MyViewHolde
                     binding.imageView.visibility = View.VISIBLE
                     binding.recyclerInner.visibility = View.GONE
 
-                    GlideUtils.setImage(binding.imageView.context, mainData.imageUrl, binding.imageView)
+                    GlideUtils.setImage(
+                        binding.imageView.context,
+                        mainData.imageUrl,
+                        binding.imageView
+                    )
                 }
                 MainData.TYPE_LIST -> {
                     binding.imageView.visibility = View.GONE
                     binding.recyclerInner.visibility = View.VISIBLE
 
-                    initListRecycler(binding.imageView.context, binding.recyclerInner, mainData.dataList)
+                    initListRecycler(
+                        binding.imageView.context,
+                        binding.recyclerInner,
+                        mainData.dataList
+                    )
                 }
                 MainData.TYPE_GRID -> {
                     binding.imageView.visibility = View.GONE
                     binding.recyclerInner.visibility = View.VISIBLE
 
-                    initGridRecycler(binding.imageView.context, binding.recyclerInner, mainData.columns, mainData.dataList)
+                    initGridRecycler(
+                        binding.imageView.context,
+                        binding.recyclerInner,
+                        mainData.columns,
+                        mainData.dataList
+                    )
                 }
                 else -> {
                     binding.imageView.visibility = View.GONE
@@ -95,7 +106,11 @@ class MainDataListAdapter : RecyclerView.Adapter<MainDataListAdapter.MyViewHolde
 
     }
 
-    private fun initListRecycler(context: Context, recyclerView: RecyclerView, list: List<Product>) {
+    private fun initListRecycler(
+        context: Context,
+        recyclerView: RecyclerView,
+        list: List<Product>
+    ) {
         Log.d(TAG, "initListRecycler:")
         val adapter = ProductListAdapter()
         val layoutManager = LinearLayoutManager(context.applicationContext)
@@ -106,16 +121,23 @@ class MainDataListAdapter : RecyclerView.Adapter<MainDataListAdapter.MyViewHolde
             layoutManager.orientation
         )
         recyclerView.addItemDecoration(dividerItemDecoration);
+        recyclerView.setHasFixedSize(true)
         recyclerView.adapter = adapter
         adapter.setList(list)
     }
 
-    private fun initGridRecycler(context: Context, recyclerView: RecyclerView, columns : Int, list: List<Product>) {
+    private fun initGridRecycler(
+        context: Context,
+        recyclerView: RecyclerView,
+        columns: Int,
+        list: List<Product>
+    ) {
         Log.d(TAG, "initGridRecycler:")
         val adapter = ProductGridAdapter()
         val layoutManager = GridLayoutManager(context.applicationContext, columns)
         recyclerView.layoutManager = layoutManager
         recyclerView.itemAnimator = DefaultItemAnimator()
+        recyclerView.setHasFixedSize(true)
         recyclerView.adapter = adapter
         adapter.setList(list)
     }
