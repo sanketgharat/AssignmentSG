@@ -8,6 +8,7 @@ import com.bumptech.glide.Glide
 import com.sg.assignment.R
 import com.sg.assignment.databinding.ActivityAssignmentOneBinding
 import com.sg.assignment.databinding.ActivityMainBinding
+import com.sg.assignment.utils.GlideUtils
 
 class AssignmentOneActivity : AppCompatActivity() {
 
@@ -38,15 +39,7 @@ class AssignmentOneActivity : AppCompatActivity() {
             return
         }
 
-        setImage(url, binding.imageView)
+        GlideUtils.setImage(applicationContext, url, binding.imageView)
     }
 
-
-
-    private fun setImage(url: String, imageView: ImageView){
-        Glide.with(this).load(url)
-            .error(R.mipmap.ic_launcher_round)
-            //.placeholder(R.mipmap.ic_launcher_round)
-            .into(imageView)
-    }
 }
