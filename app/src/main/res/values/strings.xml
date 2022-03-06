@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Assignment</string>
+    <string name="assignment_1">Assignment 1</string>
+    <string name="assignment_2">Assignment 2</string>
+    <string name="load_image">Load Image</string>
+    <string name="enter_image_url">Enter image url</string>
+    <string name="sample_image_url_1x1">https://picsum.photos/200/200</string>
+    <string name="sample_image_url_1x2">https://picsum.photos/200/400</string>
+    <string name="sample_image_url_1x3">https://picsum.photos/200/600</string>
+    <string name="sample_image_url_2x1">https://picsum.photos/400/200</string>
+    <string name="sample_image_url_2x3">https://picsum.photos/400/600</string>
+    <string name="sample_image_url_3x1">https://picsum.photos/600/200</string>
+    <string name="sample_image_url_3x2">https://picsum.photos/600/400</string>
+    <string name="some_other_view">Some other view below image</string>
+    <string name="sample_product_name">Product Name</string>
+    <string name="sample_product_description">Product description</string>
 </resources>

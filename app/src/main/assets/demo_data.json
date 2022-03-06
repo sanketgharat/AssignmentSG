@@ -1,0 +1,91 @@
+[
+  {
+    "id": 0,
+    "type": "banner_image",
+    "image_url": "https://img.dmart.in/images/rwd/banners/vwctb/13cw/15jan22-3cw-oil.jpg"
+  },
+  {
+    "id": 1,
+    "type": "list",
+    "data": [
+      {
+        "product_id": 543,
+        "product_name": "Product 543",
+        "product_description": "Product 543 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/K/P/O/KPOOJAITEMS300gmRANG12xx090221_5_P.jpg"
+      },
+      {
+        "product_id": 853,
+        "product_name": "Product 853",
+        "product_description": "Product 853 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/M/A/R/MAR210000562xx2MAR22_5_P.jpg"
+      },
+      {
+        "product_id": 444,
+        "product_name": "Product 444",
+        "product_description": "Product 444 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/F/E/B/FEB190001560xx23FEB22_5_P.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "banner_image",
+    "image_url": "https://img.dmart.in/images/rwd/banners/curated/26jan22-curated-dotm-mum.jpg"
+  },
+  {
+    "id": 3,
+    "type": "grid",
+    "columns": 2,
+    "data": [
+      {
+        "product_id": 642,
+        "product_name": "Product 642",
+        "product_description": "Product 642 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/F/E/B/FEB230000111xx14FEB22_5_P.jpg"
+      },
+      {
+        "product_id": 93,
+        "product_name": "Product 93",
+        "product_description": "Product 93 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/L/M/A/LMASSAGERS1U02xx140621_5_P.jpg"
+      },
+      {
+        "product_id": 62,
+        "product_name": "Product 62",
+        "product_description": "Product 6 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/F/E/B/FEB150001044xx12FEB22_5_P.jpg"
+      },
+      {
+        "product_id": 33,
+        "product_name": "Product 33",
+        "product_description": "Product 33 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/F/E/B/FEB150001806xx18FEB22_1_P.jpg"
+      },
+      {
+        "product_id": 11,
+        "product_name": "Product 11",
+        "product_description": "Product 11 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/F/E/B/FEB180000318xx8FEB22_5_P.jpg"
+      },
+      {
+        "product_id": 342,
+        "product_name": "Product 342",
+        "product_description": "Product 342 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/J/A/N/JAN140001803xx7JAN22_5_P.jpg"
+      },
+      {
+        "product_id": 997,
+        "product_name": "Product 997",
+        "product_description": "Product 997 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/F/E/B/FEB230000428xx26FEB22_5_P.jpg"
+      },
+      {
+        "product_id": 5433,
+        "product_name": "Product 5433",
+        "product_description": "Product 5433 description",
+        "product_image": "https://img.dmart.in/images/rwd/products/I/C/l/ICleaningAccs4206XX290216_4_P.jpg"
+      }
+    ]
+  }
+]
